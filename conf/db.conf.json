@@ -1,0 +1,6 @@
+{
+    "dbHost": "192.168.41.69",
+    "dbName": "mysql_test",
+    "dbPass": "root",
+    "dbPort": "3306"
+}

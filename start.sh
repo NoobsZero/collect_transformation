@@ -1,0 +1,1 @@
+python3 emCollect -m TF -t json --data_path '/empool/vehicle_data/tool/test/collect_transformation/data/'  --img_path '/empool/vehicle_data/tool/test/collect_transformation/img/'  --local_path '/empool/vehicle_data/tool/test/collect_transformation/result/'  --coco_img_path 'result/'

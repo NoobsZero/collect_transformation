@@ -1,0 +1,16 @@
+提供接口工具
+1、修改数据库配置文件（如果要更改配置文件路径，需更改env中路径和相关配置参数路径）
+    './conf/db.conf.json'
+1、安装python3相关依赖
+    sudo sh build.sh
+2、启动命令
+    sudo python3 emCollect
+3、查看swagger API相关接口调用
+    http://192.168.50.100:8000/docs
+
+{
+    "dbHost": "192.168.50.100",
+    "dbName": "a_wf",
+    "dbPass": "1234568",
+    "dbPort": "3306"
+}
