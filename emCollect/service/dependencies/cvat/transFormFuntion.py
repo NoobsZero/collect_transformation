@@ -9,10 +9,8 @@
 import json
 import os
 import shutil
-
 import numpy as np
-from datetime import datetime
-import time
+from emCollect.tool.mytimeUtil.dataTime import get_stamp13
 
 
 class NpEncoder(json.JSONEncoder):
@@ -25,21 +23,6 @@ class NpEncoder(json.JSONEncoder):
             return obj.tolist()
         else:
             return super(NpEncoder, self).default(obj)
-
-
-def get_stamp13(datetime_obj=None):
-    if datetime_obj is None:
-        t = time.time()
-        return int(round(t * 1000))
-    # 生成13时间戳   eg:1557842280000
-    datetime_obj = datetime.strptime(datetime_obj, '%Y-%m-%d %H:%M:%S.%f')
-    # datetime_str = datetime.datetime.strftime(datetime_obj, '%Y-%m-%d %H:%M:%S.%f')
-    # # 10位，时间点相当于从1.1开始的当年时间编号
-    date_stamp = str(int(time.mktime(datetime_obj.timetuple())))
-    # # 3位，微秒
-    data_microsecond = str("%06d" % datetime_obj.microsecond)[0:3]
-    date_stamp = date_stamp + data_microsecond
-    return int(date_stamp)
 
 
 imagesKeys = ['id', 'width', 'height', 'file_name', 'license', 'flickr_url', 'coco_url', 'date_captured']

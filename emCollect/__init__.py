@@ -9,3 +9,4 @@
 from emCollect.common.baseConfig import BaseConfig
 # 初始化配置信息
 Normal = BaseConfig().loadConf('./conf/normal.conf.json').objMap
+DBconf = BaseConfig().loadConf(Normal['db']['conf']).objMap

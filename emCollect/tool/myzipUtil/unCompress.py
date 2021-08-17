@@ -5,12 +5,12 @@
 @Author :Chen
 @Software:PyCharm
 """
+import gzip
 import logging
 import tarfile
 import zipfile
 import chardet
 import rarfile
-import gzip
 from emCollect.tool.mybaseUtil.getBaseUtil import *
 from emCollect.tool.mydirUtil.getDirUtil import *
 
@@ -97,8 +97,6 @@ class unCompressZIP(Uncompress):
             return [file for file in self.fd.namelist() if self.specifiedDirectory in file]
         else:
             return self.fd.namelist()
-
-
 
 
 class unCompressTGZ(Uncompress):
@@ -193,6 +191,11 @@ def parseSourceFile(filePath, targetPath=None, specifiedDirectory=None):
             targetPath = filePath.rstrip('.rar')
         un_compress_obj = unCompressRAR(filePath, targetPath)
         strTail = ".rar"
+    elif filePath.endswith((".tat.gz", ".tar")):
+        if not os.path.isdir(filePath.rstrip(".tat.gz").rstrip(".tar")):
+            os.mkdir(filePath.rstrip('.tat.gz').rstrip(".tar"))
+        os.system('tar -xf ' + filePath + ' -C ' + filePath.rstrip(".tat.gz").rstrip(".tar"))
+        return True, filePath.rstrip(".tat.gz").rstrip(".tar")
     elif filePath.endswith(".gz"):
         if targetPath is None:
             targetPath = filePath.rstrip('.gz')

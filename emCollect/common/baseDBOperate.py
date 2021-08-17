@@ -38,6 +38,9 @@ class DbConfigure:
         return "mysql://{user}:{password}@{ipaddr}:{port}/{dbname}?charset=utf8". \
             format(user=self.user, password=self.passwd, ipaddr=self.host, port=self.port, dbname=self.db)
 
+    def getEngine(self):
+        return f'mysql+pymysql://{self.user}:{self.passwd}@{self.host}:{self.port}/{self.db}'
+
     def InitFromConfigure(self, dbconf):
         """
             重新初始化数据库配置
@@ -49,13 +52,14 @@ class DbConfigure:
         """
         self.host = dbconf["dbHost"]
         self.port = int(dbconf["dbPort"])
+        self.user = dbconf["dbUser"]
         self.passwd = dbconf["dbPass"]
         self.db = dbconf["dbName"]
         return True
 
 
 class OperateDB:
-    def __init__(self, configPath, isUsedDB=True, renameDb=""):
+    def __init__(self, configPath='./conf/db.conf.json', isUsedDB=True, renameDb=""):
         """
             OperateDB类
                 获取数据库连接、增删改查等操作

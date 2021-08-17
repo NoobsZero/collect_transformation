@@ -1,14 +1,8 @@
 import os
-from ..common import baseTool
+
+from emCollect import BaseConfig
 from ..common.baselog import logger
 
-#
-# {
-#     "basePath": "/opt/vehicle/rawdata",
-#     "photoDir":"photos",
-#     "cityConfDir":"CheJianConfig",
-#
-# }
 ROOT_TMP_DATA_PATH = "../_Data_emCollect"
 ROOT_TMP_DATA_PHOTOS = ROOT_TMP_DATA_PATH + "/_Data_photos/"
 
@@ -49,7 +43,7 @@ class DataSaveConf:
         Args:
             confPath: [basePath（数据存储目录路径）、photoDir（图片存储目录路径）、nginxRoot（本服务目录所在路径）]文件路径
         """
-        bconf = baseTool.BaseConfig().loadConf(confPath)
+        bconf = BaseConfig().loadConf(confPath)
         print(bconf.__dict__)
         self.basePath = bconf.objMap["basePath"]
         self.photoDir = bconf.objMap["photoDir"]
@@ -91,8 +85,7 @@ class DataSaveConf:
         """
         tableName = "emTest_{deviceType}_{cityCpde}_{dataStr}".format(deviceType=self.baseCityInfo.deviceType,
                                                                       cityCpde=self.baseCityInfo.cityCode,
-                                                                      dataStr=self.baseCityInfo.dateStr.replace("-",
-                                                                                             ""))
+                                                                      dataStr=self.baseCityInfo.dateStr.replace("-", ""))
         return tableName
 
     def getTmpVideoBase(self, isEncode=False):

@@ -16,7 +16,7 @@ from ..dependencies.cvat.transFormMain import tfMain
 from ..parseCommand import TransForm
 from ... import Normal
 
-cvatTem = Normal['cvatTem']
+cvatTem = Normal['cvat']['tem']
 
 router = APIRouter(prefix="/cvat",
                    tags=["CVAT"],
@@ -43,8 +43,10 @@ async def getCocoJson(data_type: str = Query(..., description="必填，数据�
 
 @router.post("/transform/upload", summary='上传JSON或XML文件', description='将老工具json或xml转为CVAT中COCO格式')
 async def file_upload(files: List[UploadFile] = File(..., description="必填，json或xml文件")):
-    shutil.rmtree(cvatTem)
-    os.mkdir(cvatTem)
+    if os.path.isdir(cvatTem):
+        shutil.rmtree(cvatTem)
+    else:
+        os.makedirs(cvatTem)
     start = time.time()
     fileNames = []
     data = None

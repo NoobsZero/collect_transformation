@@ -1,5 +1,17 @@
 {
-    "cvatTem": "/6t/1.共享/7.workspace/collect_transformation/data",
-    "wfTem": "/6t/1.共享/7.workspace/rawdata",
-    "wfSource": "/6t/1.共享/7.workspace/source"
+    "db": {
+        "conf": "/6t/1.共享/7.workspace/collect_transformation/conf/db.conf.json"
+    },
+    "cvat": {
+        "tem": "/6t/1.共享/7.workspace/data/tem"
+    },
+    "wf": {
+        "tem": "/6t/1.共享/7.workspace/data/wf/rawdata",
+        "source": "/6t/1.共享/7.workspace/data/wf/source"
+    },
+    "cj": {
+        "tem": "/6t/1.共享/7.workspace/data/cj/tem",
+        "tmpDate": "/6t/1.共享/7.workspace/data/cj/_Data_emCollect",
+        "tmpDatePhotos": "/6t/1.共享/7.workspace/data/cj/_Data_emCollect/_Data_photos/"
+    }
 }

@@ -26,9 +26,8 @@ target_metadata = modelBase.Base.metadata
 # can be acquired:
 # my_important_option = config.get_main_option("my_important_option")
 # ... etc.
-from emCollect.model.modelCenter import OrmOperateDB
-
-url = OrmOperateDB('./conf/db.conf.json').getMysqlUrl()
+from emCollect.common.baseDBOperate import DbConfigure
+url = DbConfigure().getEngine()
 
 
 def run_migrations_offline():

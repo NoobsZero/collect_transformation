@@ -1,3 +1,67 @@
-[2021-07-29 15:03:57,208_collect_tool-INFO    -cvat.py file_upload 58]:info{'message': 'success', 'time': 0.0026276111602783203, 'filename': ['13070100051320200009+冀GZU908+4+13070100051320200009+01+0+@337216528434864128@@@2021-07-19#12#50#24+a2+0.jpg', '13070100051320200009+冀G3262Y+4+13070100051320200009+02+0+@337472618372276224@@@2021-07-20#05#49#18+a2+0.jpg', '13070100051320200009+冀GUN192+4+13070100051320200009+02+0+@337472616627445760@@@2021-07-20#05#49#07+a1+0.jpg']}
-[2021-07-29 15:05:49,530_collect_tool-INFO    -cvat.py file_upload 58]:info{'message': 'success', 'time': 0.005887508392333984, 'filename': ['13070100051320200009+冀GZU908+4+13070100051320200009+01+0+@337216528434864128@@@2021-07-19#12#50#24+a1+0.jpg', '13070100051320200009+冀G3262Y+4+13070100051320200009+02+0+@337472618372276224@@@2021-07-20#05#49#18+a1+0.jpg']}
-[2021-07-29 17:53:22,857_collect_tool-INFO    -cvat.py file_upload 61]:info{'message': 'success', 'time': 0.0005605220794677734, 'filename': ['smart_city_images_ele_20210603_1mp4000004.jpg']}
+[2021-08-03 09:47:01,156_collect_tool-INFO    -wfRenameFuntion.py un 99]:infoNone
+[2021-08-03 09:47:01,172_collect_tool-INFO    -wfRenameFuntion.py un 99]:infoNone
+[2021-08-03 09:47:01,193_collect_tool-INFO    -wfRenameFuntion.py un 99]:infoNone
+[2021-08-03 09:47:01,230_collect_tool-INFO    -wfRenameFuntion.py un 99]:infoNone
+[2021-08-03 09:47:01,922_collect_tool-INFO    -wfRenameFuntion.py un 99]:infoNone
+[2021-08-04 13:55:29,878_collect_tool-INFO    -wfRenameFuntion.py run 143]:info{'message': "'User'", 'time': -3, 'filename': '/6t/1.共享/7.workspace/rawdata/张家口0302-0313市区数据-上传完成/ivvs_source_dataa.sql'}
+[2021-08-04 15:02:01,910_collect_tool-INFO    -wfRenameFuntion.py run 143]:info{'message': "'User'", 'time': -2007, 'filename': '/6t/1.共享/7.workspace/rawdata/0722-张家口-已完成/0722-张家口-已完成/0722/0722/ivvs_source_data.sql'}
+[2021-08-04 15:42:11,986_collect_tool-INFO    -wfRenameFuntion.py run 139]:info{'message': "'User'", 'time': -7, 'filename': '/6t/1.共享/7.workspace/rawdata/0722-张家口-已完成/0722-张家口-已完成/0722/0722/ivvs_source_data.sql'}
+[2021-08-04 15:42:57,191_collect_tool-INFO    -wfRenameFuntion.py run 140]:info{'message': "'User'", 'time': -2, 'filename': '/6t/1.共享/7.workspace/rawdata/0722-张家口-已完成/0722-张家口-已完成/0722/0722/ivvs_source_data.sql'}
+[2021-08-04 15:45:18,203_collect_tool-INFO    -wfRenameFuntion.py run 141]:info{'message': "'NoneType' object is not iterable", 'time': -4, 'filename': '/6t/1.共享/7.workspace/rawdata/0722-张家口-已完成/0722-张家口-已完成/0722/0722/ivvs_source_data.sql'}
+[2021-08-04 15:47:08,552_collect_tool-INFO    -wfRenameFuntion.py run 139]:info{'message': "'User'", 'time': -4, 'filename': '/6t/1.共享/7.workspace/rawdata/0722-张家口-已完成/0722-张家口-已完成/0722/0722/ivvs_source_data.sql'}
+[2021-08-04 15:57:12,701_collect_tool-INFO    -wfRenameFuntion.py run 139]:info{'message': "'User'", 'time': -608, 'filename': '/6t/1.共享/7.workspace/rawdata/0722-张家口-已完成/0722-张家口-已完成/0722/0722/ivvs_source_data.sql'}
+[2021-08-04 15:58:07,063_collect_tool-INFO    -wfRenameFuntion.py run 139]:info{'message': "'User'", 'time': -662, 'filename': '/6t/1.共享/7.workspace/rawdata/0722-张家口-已完成/0722-张家口-已完成/0722/0722/ivvs_source_data.sql'}
+[2021-08-06 14:36:14,737_collect_tool-INFO    -wfRenameFuntion.py run 127]:info{'message': 'success', 'time': -9, 'filename': '/6t/1.共享/7.workspace/rawdata/0722-张家口-已完成/0722-张家口-已完成/0722/0722/ivvs_source_data.sql'}
+[2021-08-06 14:45:38,058_collect_tool-INFO    -wfRenameFuntion.py run 127]:info{'message': 'success', 'time': -71, 'filename': '/6t/1.共享/7.workspace/rawdata/0722-张家口-已完成/0722-张家口-已完成/0722/0722/ivvs_source_data.sql'}
+[2021-08-09 15:10:01,570_collect_tool-INFO    -cjCollectFuntion.py printProcessList 35]:处理文件列表如下:
+[2021-08-09 15:10:01,586_collect_tool-INFO    -cjCollectFuntion.py printProcessList 36]:
+[2021-08-09 15:10:01,586_collect_tool-INFO    -cjCollectFuntion.py printProcessList 37]:[]
+[2021-08-09 15:14:58,044_collect_tool-INFO    -cjCollectFuntion.py printProcessList 35]:处理文件列表如下:
+[2021-08-09 15:14:58,044_collect_tool-INFO    -cjCollectFuntion.py printProcessList 36]:
+[2021-08-09 15:14:58,044_collect_tool-INFO    -cjCollectFuntion.py printProcessList 37]:['/6t/1.共享/7.workspace/data/cj/tem/emData_chayan_4419_20210714093424.tar.gz']
+[2021-08-09 15:29:47,337_collect_tool-INFO    -cjCollectFuntion.py printProcessList 35]:处理文件列表如下:
+[2021-08-09 15:29:47,337_collect_tool-INFO    -cjCollectFuntion.py printProcessList 36]:
+[2021-08-09 15:29:47,337_collect_tool-INFO    -cjCollectFuntion.py printProcessList 37]:['/6t/1.共享/7.workspace/data/cj/tem/emData_chayan_4419_20210714093424.tar.gz']
+[2021-08-09 16:21:47,572_collect_tool-INFO    -cjCollectFuntion.py printProcessList 37]:处理文件列表如下:
+[2021-08-09 16:21:47,575_collect_tool-INFO    -cjCollectFuntion.py printProcessList 38]:
+[2021-08-09 16:21:47,576_collect_tool-INFO    -cjCollectFuntion.py printProcessList 39]:['/6t/1.共享/7.workspace/data/cj/tem/车检.zip']
+[2021-08-09 16:21:47,576_collect_tool-INFO    -cjCollectFuntion.py start 42]:start .....
+[2021-08-09 16:22:48,695_collect_tool-INFO    -cjCollectFuntion.py start 42]:start .....
+[2021-08-09 16:22:48,696_collect_tool-INFO    -cjCollectFuntion.py printProcessList 37]:处理文件列表如下:
+[2021-08-09 16:22:48,696_collect_tool-INFO    -cjCollectFuntion.py printProcessList 38]:
+[2021-08-09 16:22:48,696_collect_tool-INFO    -cjCollectFuntion.py printProcessList 39]:[]
+[2021-08-09 16:22:52,523_collect_tool-INFO    -cjCollectFuntion.py start 42]:start .....
+[2021-08-09 16:22:52,523_collect_tool-INFO    -cjCollectFuntion.py printProcessList 37]:处理文件列表如下:
+[2021-08-09 16:22:52,523_collect_tool-INFO    -cjCollectFuntion.py printProcessList 38]:
+[2021-08-09 16:22:52,523_collect_tool-INFO    -cjCollectFuntion.py printProcessList 39]:[]
+[2021-08-09 16:22:54,054_collect_tool-INFO    -cjCollectFuntion.py start 42]:start .....
+[2021-08-09 16:22:54,054_collect_tool-INFO    -cjCollectFuntion.py printProcessList 37]:处理文件列表如下:
+[2021-08-09 16:22:54,054_collect_tool-INFO    -cjCollectFuntion.py printProcessList 38]:
+[2021-08-09 16:22:54,054_collect_tool-INFO    -cjCollectFuntion.py printProcessList 39]:[]
+[2021-08-09 16:22:55,491_collect_tool-INFO    -cjCollectFuntion.py start 42]:start .....
+[2021-08-09 16:22:55,491_collect_tool-INFO    -cjCollectFuntion.py printProcessList 37]:处理文件列表如下:
+[2021-08-09 16:22:55,491_collect_tool-INFO    -cjCollectFuntion.py printProcessList 38]:
+[2021-08-09 16:22:55,491_collect_tool-INFO    -cjCollectFuntion.py printProcessList 39]:[]
+[2021-08-09 16:41:00,205_collect_tool-INFO    -cjCollectFuntion.py printProcessList 48]:处理文件列表如下:
+[2021-08-09 16:41:00,228_collect_tool-INFO    -cjCollectFuntion.py printProcessList 49]:
+[2021-08-09 16:41:00,228_collect_tool-INFO    -cjCollectFuntion.py printProcessList 50]:[]
+[2021-08-09 16:45:13,038_collect_tool-INFO    -cjCollectFuntion.py printProcessList 48]:处理文件列表如下:
+[2021-08-09 16:45:13,038_collect_tool-INFO    -cjCollectFuntion.py printProcessList 49]:
+[2021-08-09 16:45:13,038_collect_tool-INFO    -cjCollectFuntion.py printProcessList 50]:[]
+[2021-08-09 16:54:30,299_collect_tool-INFO    -cjCollectFuntion.py printProcessList 52]:处理文件列表如下:
+[2021-08-09 16:54:30,300_collect_tool-INFO    -cjCollectFuntion.py printProcessList 53]:
+[2021-08-09 16:54:30,300_collect_tool-INFO    -cjCollectFuntion.py printProcessList 54]:['/6t/1.共享/7.workspace/data/cj/tem/车检/车检/emData_chayan_4419_20210714093424.tar.gz']
+[2021-08-09 16:58:42,389_collect_tool-INFO    -cjCollectFuntion.py printProcessList 50]:处理文件列表如下:
+[2021-08-09 16:58:42,390_collect_tool-INFO    -cjCollectFuntion.py printProcessList 51]:
+[2021-08-09 16:58:42,390_collect_tool-INFO    -cjCollectFuntion.py printProcessList 52]:['/6t/1.共享/7.workspace/data/cj/tem/车检/车检/emData_chayan_4419_20210714093424.tar.gz']
+[2021-08-09 16:58:42,390_collect_tool-INFO    -cjCollectFuntion.py start 55]:start .....
+[2021-08-09 16:58:57,590_collect_tool-INFO    -cjCollectFuntion.py printProcessList 50]:处理文件列表如下:
+[2021-08-09 16:58:57,590_collect_tool-INFO    -cjCollectFuntion.py printProcessList 51]:
+[2021-08-09 16:58:57,591_collect_tool-INFO    -cjCollectFuntion.py printProcessList 52]:['/6t/1.共享/7.workspace/data/cj/tem/车检/车检/emData_chayan_4419_20210714093424.tar.gz']
+[2021-08-09 16:58:57,591_collect_tool-INFO    -cjCollectFuntion.py start 55]:start .....
+[2021-08-09 17:30:03,171_collect_tool-INFO    -cjCollectFuntion.py printProcessList 50]:处理文件列表如下:
+[2021-08-09 17:30:03,171_collect_tool-INFO    -cjCollectFuntion.py printProcessList 51]:
+[2021-08-09 17:30:03,171_collect_tool-INFO    -cjCollectFuntion.py printProcessList 52]:['/6t/1.共享/7.workspace/data/cj/tem/车检/车检/emData_chayan_4419_20210714093424.tar.gz']
+[2021-08-11 10:14:30,980_collect_tool-INFO    -wfRenameFuntion.py run 133]:infoNone
+[2021-08-11 10:50:12,713_collect_tool-INFO    -wfRenameFuntion.py run 133]:infoNone
+[2021-08-11 11:19:15,157_collect_tool-INFO    -wfRenameFuntion.py run 139]:info{'message': 'success', 'time': '2s', 'filename': '/6t/1.共享/7.workspace/data/wf/rawdata/眼控点位_20210810/眼控点位_20210810/数据库数据.xlsx'}
